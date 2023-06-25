@@ -24,19 +24,24 @@ const Contact = () => {
               </p>
             </article>
             <article>
-              <form className='form contact-form'>
+              <form className='form contact-form' action="https://getform.io/f/c9f72f96-2c02-4d44-9ceb-b93e920a09ef" method="POST">
                 <div className='form-row'>
-                  <label htmlFor='name'>your name</label>
-                  <input type='text' name='name' id='name'/>
+                  <label htmlFor='subject'>Subject *</label>
+                  <input type='text' name='subject' id='subject' required/>
                 </div>
                 <div className='form-row'>
-                  <label htmlFor='email'>your name</label>
-                  <input type='text' name='email' id='email'/>
+                  <label htmlFor='name'>your name *</label>
+                  <input type='text' name='name' id='name' required/>
+                </div>
+                <div className='form-row'>
+                  <label htmlFor='email'>email *</label>
+                  <input type='text' name='email' id='email' required/>
                 </div>
                 <div className='form-row'>
                   <label htmlFor='message'>message</label>
-                  <textarea name='message' id='message' />
+                  <textarea name='message' id='message' required/>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Ldk6cwmAAAAAPYTF11yrQ1AtWuJqFhiKQWaAn8c"></div>
                 <button type='submit' className='btn block'>submit</button>
               </form>
             </article>
