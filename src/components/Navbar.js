@@ -43,7 +43,7 @@ const Navbar = () => {
                         activeClassName='active-link'
                         onClick={() => setShow(false)}
                     >
-                        Online-Order
+                        Online Order
                     </Link>
                     <Link 
                         to='/news' 
