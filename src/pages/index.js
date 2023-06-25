@@ -20,7 +20,7 @@ export default function Home() {
               <div className='hero-container'>
                 <div className='hero-text'>
                   <h3>
-                    It is time for Boba &hearts;
+                    It's time for Boba &hearts;
                     <div className='nav-link hero-link'>
                         <Link 
                             to='/news' 
