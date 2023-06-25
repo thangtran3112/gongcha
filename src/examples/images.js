@@ -20,7 +20,7 @@ const Images = () => {
         </article>
         <article>
             <StaticImage 
-                src='../assets/images/themes/theme2.jpg' 
+                src='../assets/images/menu/theme2.jpg' 
                 alt='food'
                 height={400}
                 placeholder="dominantColor"
@@ -32,7 +32,7 @@ const Images = () => {
         </article>
         <article>
             <StaticImage 
-                src='../assets/images/themes/theme2.jpg' 
+                src='../assets/images/menu/theme2.jpg' 
                 alt='food'
                 placeholder="dominantColor"
                 layout="fullWidth"
