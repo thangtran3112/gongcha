@@ -22,6 +22,12 @@ const Contact = () => {
                 Interested in partnering with us ?
                 We are looking for partners/operators for our future second store in Kelowna as well.
               </p>
+              <p className='address'>
+                Gong Cha Gordon
+              </p>
+              <p className='address'>
+                1101 Harvey Ave, Kelowna, BC V1Y 6E8, (236)-420-4246
+              </p>
             </article>
             <article>
               <form 
