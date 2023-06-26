@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import '../assets/css/main.css';
 import 'normalize.css';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 const Layout = ({children}) => {
   return (
@@ -11,9 +11,9 @@ const Layout = ({children}) => {
       <Helmet>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       </Helmet>
-      <Navbar></Navbar>
+      <Navbar/>
       {children}
-      <Footer></Footer>
+      <Footer/>
     </>
   )
 }
