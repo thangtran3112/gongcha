@@ -9,7 +9,7 @@ const Layout = ({children}) => {
   return (
     <>
       <Helmet>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
       </Helmet>
       <Navbar></Navbar>
       {children}
