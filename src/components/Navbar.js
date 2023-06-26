@@ -30,20 +30,20 @@ const Navbar = () => {
                         home
                     </Link>
                     <Link 
-                        to='/menu' 
-                        className='nav-link' 
-                        activeClassName='active-link'
-                        onClick={() => setShow(false)}
-                    >
-                        menu
-                    </Link>
-                    <Link 
                         to='/order' 
                         className='nav-link' 
                         activeClassName='active-link'
                         onClick={() => setShow(false)}
                     >
                         Online Order
+                    </Link>
+                    <Link 
+                        to='/locations' 
+                        className='nav-link' 
+                        activeClassName='active-link'
+                        onClick={() => setShow(false)}
+                    >
+                        Locations
                     </Link>
                     <Link 
                         to='/news' 
