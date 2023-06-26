@@ -8,7 +8,7 @@ const Contact = () => {
           <section className='contact-page'>
             <article className='contact-info'>
               <h3>
-                Want to get in touch with us ?
+                Connecting with us ?
               </h3>
               <p>
                 Share your recent experience with Gong Cha Kelowna ?
@@ -19,14 +19,13 @@ const Contact = () => {
                 Baristas, supervisors and store managers are welcome!
               </p>
               <p>
-                Interested in partnering with us ?
-                We are looking for partners/operators for our future second store in Kelowna as well.
+                Interested in partnering with us for future stores?
+              </p>
+              <p>
+                Connect with us through email or simply filling in the form:
               </p>
               <p className='address'>
-                Gong Cha Gordon
-              </p>
-              <p className='address'>
-                1101 Harvey Ave, Kelowna, BC V1Y 6E8, (236)-420-4246
+                Email: gongchakelowna@gmail.com
               </p>
             </article>
             <article>
