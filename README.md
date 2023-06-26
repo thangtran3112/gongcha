@@ -13,7 +13,8 @@
 2.  **Using Gatsby support Contact email handling.**
 
     
-    Using Email Contact Forms either with GetForm or Formspree ([instructions here](https://www.gatsbyjs.com/docs/building-a-contact-form/))
+    Using  GetForm to receive contact requests ([instructions here](https://www.gatsbyjs.com/docs/building-a-contact-form/))
+    Using Google Recapcha v2 for spam prevention.
 
 2.  **Build and Host on AWS Amplify**
 

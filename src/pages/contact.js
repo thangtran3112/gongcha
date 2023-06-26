@@ -41,7 +41,7 @@ const Contact = () => {
                   <label htmlFor='message'>message</label>
                   <textarea name='message' id='message' required/>
                 </div>
-                <div class="g-recaptcha" data-sitekey="6Ldk6cwmAAAAAPYTF11yrQ1AtWuJqFhiKQWaAn8c"></div>
+                <div class="h-captcha" data-sitekey="55290c2a-406f-4fcb-98a6-726175bd9ad3"></div>
                 <button type='submit' className='btn block'>submit</button>
               </form>
             </article>

@@ -62,12 +62,12 @@ const Navbar = () => {
                         about
                     </Link>
                     <div className='nav-link contact-link'>
-                        <Link 
-                            to='/contact' 
-                            className='btn' 
+                        <a 
+                            href='/contact' 
+                            className='btn'
                         >
                             contact
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
