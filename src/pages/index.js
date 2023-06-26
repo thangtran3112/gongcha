@@ -34,7 +34,7 @@ export default function News() {
                 </p>
                 <h4>Celebrating with us &hearts;</h4>
                 <p className='address'>
-                  Buy-2-get-1-free, only on July 1 and July 2, 2023 🎉
+                  Buy-2-get-1-free, only on July 1-2, 2023 🎉
                 </p>
               </article>
         </section>
