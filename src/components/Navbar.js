@@ -3,6 +3,7 @@ import React,  { useState } from 'react';
 import { FiAlignJustify } from "react-icons/fi";
 //import logo from '../assets/images/logo.svg';
 import logo from '../assets/images/logo/bold.png';
+import ContactLink from './ContactLink';
 
 const Navbar = () => {
 
@@ -62,12 +63,7 @@ const Navbar = () => {
                         about
                     </Link>
                     <div className='nav-link contact-link'>
-                        <a 
-                            href='/contact' 
-                            className='btn'
-                        >
-                            contact
-                        </a>
+                        <ContactLink/>
                     </div>
                 </div>
             </div>
