@@ -1,16 +1,15 @@
 import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
-import { Link } from "gatsby";
 
-export default function Home() {
+export default function News() {
   return (
       <Layout>
           <main className='page'>
             <header className='hero'>
               <StaticImage 
                 src='../assets/images/themes/theme24.png' 
-                alt='4cups'
+                alt='opening'
                 className='hero-img'
                 placeholder='blurred'
                 layout="fullWidth"
@@ -19,21 +18,28 @@ export default function Home() {
 
               <div className='hero-container'>
                 <div className='hero-text'>
-                  <h3>
-                    It's time for Boba &hearts;
-                    <div className='nav-link hero-link'>
-                        <Link 
-                            to='/news' 
-                            className='btn' 
-                        >
-                            News & Promos →
-                        </Link>
-                    </div>
+                  <h3 className="address">
+                    Soft Opening on Canada Day 2023 🎉
                   </h3>
                 </div>
               </div>
             </header>
+            <section className='about-page'>
+              <article>
+                <h3>
+                  Happy Canada Day 🇨🇦
+                </h3>
+                <p>
+                  We are looking toward for the soft opening of our first Kelowna location on Canada Day July 1st, 2023.
+                </p>
+                <h3>Celebrating with us &hearts;</h3>
+                <p className='address'>
+                  Buy-2-get-1-free, only on July 1 and July 2, 2023 🎉
+                </p>
+              </article>
+        </section>
           </main>
       </Layout>
   );
 }
+
