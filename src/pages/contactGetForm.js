@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-const Contact = () => {
+const ContactGetForm = () => {
   return (
     <Layout>
         <main className="page">
@@ -24,11 +24,7 @@ const Contact = () => {
               </p>
             </article>
             <article>
-              <form 
-                className='form contact-form' 
-                action="https://formspree.io/f/xleyrjdy"
-                method="POST"
-              >
+              <form className='form contact-form' action="https://getform.io/f/c9f72f96-2c02-4d44-9ceb-b93e920a09ef" method="POST">
                 <div className='form-row'>
                   <label htmlFor='subject'>Subject *</label>
                   <input type='text' name='subject' id='subject' required/>
@@ -45,7 +41,7 @@ const Contact = () => {
                   <label htmlFor='message'>message</label>
                   <textarea name='message' id='message' required/>
                 </div>
-                <div class="g-recaptcha" data-sitekey="6Ldk6cwmAAAAAPYTF11yrQ1AtWuJqFhiKQWaAn8c"></div>
+                <div class="h-captcha" data-sitekey="55290c2a-406f-4fcb-98a6-726175bd9ad3"></div>
                 <button type='submit' className='btn block'>submit</button>
               </form>
             </article>
@@ -55,5 +51,5 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactGetForm
 
