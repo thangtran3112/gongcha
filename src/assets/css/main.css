@@ -810,3 +810,10 @@ form > *:last-child {
   color: var(--gongcha-red);
   text-transform: capitalize;
 }
+.address {
+  background: var(--gongcha-red);
+  color: var(--white);
+  display: flex;
+  padding: 0.15rem 1rem;
+
+}
