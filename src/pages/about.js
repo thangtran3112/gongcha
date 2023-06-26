@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
+import ContactLink from '../components/ContactLink';
 
 const About = () => {
   return (
@@ -25,9 +26,7 @@ const About = () => {
                 All drinks are served at their freshest by brewing new batches of tea and pearls every four hours. 
                 This commitment to excellence ensures that Gong cha is always brewing happiness wherever we serve our customers.
               </p>
-              <a href='/contact'  className='btn'>
-                contact
-              </a>
+              <ContactLink/>
             </article>
             <StaticImage 
               src='../assets/images/themes/vertical.png'
