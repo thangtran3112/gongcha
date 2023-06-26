@@ -26,13 +26,13 @@ export default function News() {
             </header>
             <section className='about-page'>
               <article>
-                <h3>
+                <h4>
                   Happy Canada Day 🇨🇦
-                </h3>
+                </h4>
                 <p>
                   We are looking toward for the soft opening of our first Kelowna location on Canada Day July 1st, 2023.
                 </p>
-                <h3>Celebrating with us &hearts;</h3>
+                <h4>Celebrating with us &hearts;</h4>
                 <p className='address'>
                   Buy-2-get-1-free, only on July 1 and July 2, 2023 🎉
                 </p>
