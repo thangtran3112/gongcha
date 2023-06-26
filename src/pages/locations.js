@@ -1,7 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
-import { Link } from "gatsby";
 
 const Locations = () => {
   return (
@@ -30,9 +29,9 @@ const Locations = () => {
               <p>
                 <span className='location'>Email:</span> gongchakelowna@gmail.com
               </p>
-              <Link to='/contact' className='btn'>
+              <a href='/contact'  className='btn'>
                 contact
-              </Link>
+              </a>
             </article>
             <StaticImage 
               src='../assets/images/themes/brownsugar.jpg'
