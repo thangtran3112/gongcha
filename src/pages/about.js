@@ -35,9 +35,7 @@ const About = () => {
               alt='4 tea cups'
               className='about-img'
               placeholder='dominantColor'
-            >
-
-            </StaticImage>
+            />
         </section>
       </main>
     </Layout>

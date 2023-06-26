@@ -1,7 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
-import { Link } from "gatsby";
 
 export default function News() {
   return (
@@ -26,17 +25,18 @@ export default function News() {
               </div>
             </header>
             <section className='about-page'>
-            <article>
-              <h2>
-                Happy Canada Day 🎉
-              </h2>
-              <p>
-                We are looking toward for the soft opening of our first Kelowna location on Canada Day July 1st 2023.
-              </p>
-              <p>
-                Contact us for more information or connect with us on Instagram for more updates.
-              </p>
-            </article>
+              <article>
+                <h3>
+                  Happy Canada Day 🇨🇦
+                </h3>
+                <p>
+                  We are looking toward for the soft opening of our first Kelowna location on Canada Day July 1st, 2023.
+                </p>
+                <h3>Celebrating with us &hearts;</h3>
+                <p className='address'>
+                  Buy-2-get-1-free, only on July 1 and July 2, 2023 🎉
+                </p>
+              </article>
         </section>
           </main>
       </Layout>
