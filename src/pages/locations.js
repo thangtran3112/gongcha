@@ -12,11 +12,14 @@ const Locations = () => {
               <h2>
                 Gong Cha Gordon
               </h2>
-              <p className='address'>
-                Soft Opening from July 1st, 2023
+              <p>
+                Exact soft opening date will be announced later.
               </p>
               <p className='address'>
-                Grand Opening from July 21st, 2023
+                Soft Opening on early July 2023.
+              </p>
+              <p className='address'>
+                Grand opening from July 21st, 2023.
               </p>
               <p>
                 <span className='location'>Address:</span> 1101 Harvey Ave, #99, Kelowna, BC V1Y 6E8
