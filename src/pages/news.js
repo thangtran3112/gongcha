@@ -19,23 +19,32 @@ export default function News() {
               <div className='hero-container'>
                 <div className='hero-text'>
                   <h3 className="address">
-                    Soft Opening on Canada Day 2023 🎉
+                    Soft Opening on Early July 2023 🎉
                   </h3>
                 </div>
               </div>
             </header>
             <section className='about-page'>
               <article>
-                <h3>
-                  Happy Canada Day 🇨🇦
-                </h3>
                 <p>
-                  We are looking toward for the soft opening of our first Kelowna location on Canada Day July 1st, 2023.
+                  Stay tuned on our social media for exact soft opening and grand opening dates.
                 </p>
-                <h3>Celebrating with us &hearts;</h3>
-                <p className='address'>
-                  Buy-2-get-1-free, only on July 1 and July 2, 2023 🎉
-                </p>
+              </article>
+              <article>
+                  <h4>
+                    Soft Opening: Early July 2023 🎉
+                  </h4>
+                  <p className='address'>
+                    Promo: Buy-2-get-1-free, on soft opening date &hearts;
+                  </p>
+              </article>
+              <article>
+                  <h4>
+                    Grand Opening: July 21, 2023 🎉
+                  </h4>
+                  <p className='address'>
+                    Promo: Buy-1-get-1 free on Grand opening date &hearts;
+                  </p>
               </article>
         </section>
           </main>

@@ -26,7 +26,7 @@ export default function Home() {
                             to='/news' 
                             className='btn' 
                         >
-                            News & Promos →
+                          News & Promos →
                         </Link>
                     </div>
                   </h3>
