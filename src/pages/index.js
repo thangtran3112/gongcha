@@ -26,7 +26,7 @@ export default function Home() {
                             to='/news' 
                             className='btn' 
                         >
-                            Grand Opening soon →
+                            Soft Opening Now →
                         </Link>
                     </div>
                   </h3>
