@@ -30,7 +30,7 @@ export default function News() {
                     Soft Opening: July 5, 2023 🎉
                   </h4>
                   <p className='address'>
-                    Promo: Buy-2-get-1-free, only July 5-6;
+                    Promo: Buy-2-get-1-free, only July 5-6 🎉
                   </p>
               </article>
               <article>
