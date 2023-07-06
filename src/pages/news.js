@@ -19,23 +19,18 @@ export default function News() {
               <div className='hero-container'>
                 <div className='hero-text'>
                   <h3 className="address">
-                    Soft Opening on Early July 2023 🎉
+                    Soft Opening from July 5, 2023 🎉
                   </h3>
                 </div>
               </div>
             </header>
             <section className='about-page'>
               <article>
-                <p>
-                  Stay tuned on our social media for exact soft opening and grand opening dates.
-                </p>
-              </article>
-              <article>
                   <h4>
-                    Soft Opening: Early July 2023 🎉
+                    Soft Opening: July 5, 2023 🎉
                   </h4>
                   <p className='address'>
-                    Promo: Buy-2-get-1-free, on soft opening date &hearts;
+                    Promo: Buy-2-get-1-free, only July 5-6;
                   </p>
               </article>
               <article>

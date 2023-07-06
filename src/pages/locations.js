@@ -12,11 +12,8 @@ const Locations = () => {
               <h2>
                 Gong Cha Gordon
               </h2>
-              <p>
-                Exact soft opening date will be announced later.
-              </p>
               <p className='address'>
-                Soft Opening on early July 2023.
+                Soft Opening from July 5th, 2023.
               </p>
               <p className='address'>
                 Grand opening from July 21st, 2023.
