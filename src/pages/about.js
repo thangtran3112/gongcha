@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
 import ContactLink from '../components/ContactLink';
+import { Link, graphql } from 'gatsby'
+import RecipesList from "../components/RecipesList";
 
 const About = () => {
   return (
@@ -34,6 +36,12 @@ const About = () => {
               className='about-img'
               placeholder='dominantColor'
             />
+        </section>
+      </main>
+      <main className='featured-page'>
+        <section className='featured-recipes'>
+            <h5>Look at this Awesomesouce!</h5>
+            <RecipesList/>
         </section>
       </main>
     </Layout>

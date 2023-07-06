@@ -260,7 +260,15 @@ button.block {
   margin: 0 auto;
 }
 .page {
-  min-height: calc(100vh - (6rem + 4rem));
+  min-height: calc(75vh - (6rem + 4rem));
+}
+.featured-page {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.featured-page {
+  min-height: calc(60vh - (6rem + 4rem));
 }
 
 .title {
@@ -617,7 +625,7 @@ form > *:last-child {
   display: block;
 }
 .recipe-img {
-  height: 15rem;
+  height: 22rem;
   border-radius: var(--borderRadius);
 }
 .recipe h5 {
@@ -652,7 +660,7 @@ form > *:last-child {
   }
 
   .recipe-img {
-    height: 9rem;
+    height: 12rem;
   }
 
   .recipe p {
