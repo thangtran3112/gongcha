@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
 import ContactLink from '../components/ContactLink';
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import RecipesList from "../components/RecipesList";
 
 const About = ({
@@ -19,10 +19,7 @@ const About = ({
                 Brewing Happiness
               </h2>
               <p>
-                Established in 1996 in Taiwan, and after years of expertise development, Gong cha became and is one of the world’s fastest growing tea brands, offering high quality beverages at nearly 2000 locations around the world.
-              </p>
-              <p>
-                We brews four types of classic tea: Black tea, Green tea, Oolong tea, and Earl Grey tea. 
+                Gong Cha brews four types of classic tea: Black tea, Green tea, Oolong tea, and Earl Grey tea. 
                 Using only loose leaf tea leaves, these teas are brewed at just the right temperature for just the right amount of time.
               </p>
               <p>
@@ -44,9 +41,9 @@ const About = ({
       </main>
       <main className='featured-page'>
         <section className='featured-recipes'>
-            <h5>Look at this Awesomesouce!</h5>
-            <RecipesList recipes={recipes} imageClassName='featured-img'/>
-        </section>
+              <h5>Look at this Awesomesouce!</h5>
+              <RecipesList recipes={recipes} imageClassName='featured-img'/>
+          </section>
       </main>
     </Layout>
   )

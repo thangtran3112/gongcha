@@ -16,7 +16,13 @@
     Using  GetForm to receive contact requests ([instructions here](https://www.gatsbyjs.com/docs/building-a-contact-form/))
     Using Google Recapcha v2 for spam prevention.
 
-2.  **Build and Host on AWS Amplify**
+3.  **Frontend modelling using Contentful headless CMS**
+
+    
+    Using contentful gatsby configs ([instructions here](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/))
+    Instruction for modelling CMS data for ([Contenful Guide](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/))
+
+4.  **Build and Host on AWS Amplify**
 
     Error: 
     At the moment, Amazon Linux 2 image does not work properly with node 18+. While waiting for Amazon Linux 2023 to be available for Amplify,
