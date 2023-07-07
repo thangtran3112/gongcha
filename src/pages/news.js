@@ -19,7 +19,7 @@ export default function News() {
               <div className='hero-container'>
                 <div className='hero-text'>
                   <h3 className="address">
-                    Soft Opening from July 5, 2023 🎉
+                    Soft Opening from July 6, 2023 🎉
                   </h3>
                 </div>
               </div>
@@ -27,10 +27,10 @@ export default function News() {
             <section className='about-page'>
               <article>
                   <h4>
-                    Soft Opening: July 5, 2023 🎉
+                    Soft Opening: July 6, 2023 🎉
                   </h4>
                   <p className='address'>
-                    Promo: Buy-2-get-1-free, only July 5-6 🎉
+                    Promo: Buy-2-get-1-free, only July 6-7 🎉
                   </p>
               </article>
               <article>
