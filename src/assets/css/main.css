@@ -530,6 +530,11 @@ form > *:last-child {
   text-transform: none;
   font-weight: bold;
 }
+.about-page h3 {
+  margin-top: 2rem;
+  text-transform: none;
+  font-weight: bold;
+}
 .about-page p {
   font-size: 1.10rem;
 }
