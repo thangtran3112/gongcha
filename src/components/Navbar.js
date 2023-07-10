@@ -55,6 +55,14 @@ const Navbar = () => {
                         News
                     </Link>
                     <Link 
+                        to='/tags' 
+                        className='nav-link' 
+                        activeClassName='active-link'
+                        onClick={() => setShow(false)}
+                    >
+                        Tags
+                    </Link>
+                    <Link 
                         to='/about' 
                         className='nav-link' 
                         activeClassName='active-link'
