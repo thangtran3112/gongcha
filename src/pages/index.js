@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from "gatsby";
 import AllRecipes from "../components/AllRecipes";
+import OrderPickup from '../components/OrderPickup'
 
 export default function Home() {
   return (
@@ -24,10 +25,10 @@ export default function Home() {
                     It's time for Boba &hearts;
                     <div className='nav-link hero-link'>
                         <Link 
-                            to='/news' 
+                            to='/order' 
                             className='btn' 
                         >
-                            Soft Opening Now →
+                            Online Order →
                         </Link>
                     </div>
                   </h3>
