@@ -47,14 +47,6 @@ const Navbar = () => {
                         Locations
                     </Link>
                     <Link 
-                        to='/news' 
-                        className='nav-link' 
-                        activeClassName='active-link'
-                        onClick={() => setShow(false)}
-                    >
-                        News
-                    </Link>
-                    <Link 
                         to='/about' 
                         className='nav-link' 
                         activeClassName='active-link'

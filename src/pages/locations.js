@@ -25,7 +25,7 @@ const Locations = () => {
                 <span className='location'>Phone:</span> (236)-420-4246
               </p>
               <p>
-                <span className='location'>Text Order:</span> (587)-429-4268
+                <span className='location'>Catering:</span> (587)-429-4268
               </p>
               <p>
                 <span className='location'>Email:</span> gongchakelowna@gmail.com
