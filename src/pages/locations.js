@@ -10,7 +10,7 @@ const Locations = () => {
         <section className='about-page'>
             <article>
               <h2>
-                Gong Cha Gordon
+                Gong Cha Kelowna (Capri Centre)
               </h2>
               <p className='address'>
                 Soft Opening from July 6, 2023.
