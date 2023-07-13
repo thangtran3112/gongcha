@@ -15,9 +15,6 @@ const Locations = () => {
               <p className='address'>
                 Soft Opening from July 6, 2023.
               </p>
-              <p className='address'>
-                Grand opening from July 21, 2023.
-              </p>
               <p>
                 <span className='location'>Address:</span> 1101 Harvey Ave, #99, Kelowna, BC V1Y 6E8
               </p>
