@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import OrderPickup from '../components/OrderPickup'
 import { StaticImage } from 'gatsby-plugin-image';
+import DoorDashDeliveryOrder from '../components/DoorDashDeliveryOrder';
 
 const Order = () => {
   return (
@@ -20,8 +21,9 @@ const Order = () => {
               Delivery
             </h3>
             <p>
-              Delivery is still under development and will be comming soon...
+              Delivery with DoorDash is now available. Please click the below button:
             </p>
+            <DoorDashDeliveryOrder/>
           </article>
           <StaticImage 
               src='../assets/images/menu/theme3.jpg'
