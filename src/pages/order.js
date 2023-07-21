@@ -21,7 +21,7 @@ const Order = () => {
               Delivery
             </h3>
             <p>
-              Delivery with DoorDash is available below. DoorDash commision and service fee will apply.
+              To oder your favortite drinks and snack and get delivery, please click the button below.
             </p>
             <DoorDashDeliveryOrder/>
           </article>
