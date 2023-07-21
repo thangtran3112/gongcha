@@ -6,8 +6,8 @@ import React from 'react'
  */
 const DoorDashDeliveryOrder = () => {
     return (
-        <a href='https://www.doordash.com/en-CA/store/gong-cha-kelowna-kelowna-25137513/' className='btn'>
-            Delivery by DoorDash
+        <a href='https://order.online/store/gong-cha-kelowna-kelowna-25137513' className='btn'>
+            Order Delivery
         </a>
     )
   }
