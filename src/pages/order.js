@@ -14,14 +14,14 @@ const Order = () => {
               PickUp Order
             </h3>
             <p>
-              To order your favorite drinks ahead for In-store PickUp, please click the button below:
+              To order your favorite drinks ahead for In-store PickUp, please click the button below for the best price.
             </p>
             <OrderPickup/>
             <h3>
               Delivery
             </h3>
             <p>
-              Delivery with DoorDash is now available. Please click the below button:
+              Delivery with DoorDash is available below. Pricing is subjected to DoorDash commission and service fees.
             </p>
             <DoorDashDeliveryOrder/>
           </article>
