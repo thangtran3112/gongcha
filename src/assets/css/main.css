@@ -410,6 +410,10 @@ form > *:last-child {
 .active-link {
   color: var(--gongcha-red);
 }
+.normal-link {
+  color: var(--gongcha-red);
+  font-weight: bold;
+}
 .contact-link {
   display: flex;
   justify-content: center;

@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { BsCart4, BsCupHotFill, BsSnow2} from 'react-icons/bs';
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
+import BackLink from '../components/BackLink';
 
 const RecipeTemplate = ({data}) => {
     const {
@@ -27,6 +28,7 @@ const RecipeTemplate = ({data}) => {
     return (
         <Layout>
             <main className='page'>
+                <BackLink description='All Products' toPath='/'/>
                 <div className='recipe-page'>
                     {/*hero section*/}
                     <section className="recipe-hero">
