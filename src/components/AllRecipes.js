@@ -8,8 +8,8 @@ export const query = graphql`
       nodes {
         id
         title
-        cookTime
-        prepTime
+        vegan
+        milk
         content {
           tags
         }

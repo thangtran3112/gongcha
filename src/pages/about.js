@@ -58,8 +58,8 @@ export const query = graphql`
       nodes {
         id
         title
-        cookTime
-        prepTime
+        vegan
+        milk
         image {
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
         }

@@ -8,9 +8,9 @@ import { Link } from 'gatsby';
 const RecipeTemplate = ({data}) => {
     const {
         title, 
-        cookTime, 
+        vegan, 
         content, 
-        prepTime, 
+        milk, 
         servings, 
         hot,
         cold,
@@ -51,7 +51,7 @@ const RecipeTemplate = ({data}) => {
                                 <article>
                                     <BsCupHotFill/>
                                     <h5>Hot</h5>
-                                    <p>yes</p>
+                                    <p>{hot}</p>
                                 </article>
                                 <article>
                                     <BsCart4/>
@@ -87,7 +87,7 @@ const RecipeTemplate = ({data}) => {
 export const query = graphql`
     query getSingleRecipe($title: String) {
         contentfulRecipe(title: {eq: $title}) {
-            cookTime
+            vegan
             title
             description {
                 description
@@ -98,12 +98,12 @@ export const query = graphql`
                 tags
                 tools
             }
-            prepTime
+            milk
             servings
             hot
             cold
             image {
-                gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+                gatsbyImageData(layout: CONSTRAINED, placeholder: DOMINANT_COLOR)
             }
         }
     } 
