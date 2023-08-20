@@ -1,8 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import OrderPickup from '../components/OrderPickup'
 import { StaticImage } from 'gatsby-plugin-image';
-import DoorDashDeliveryOrder from '../components/DoorDashDeliveryOrder';
+import OnlineOrder from '../components/OnlineOrder';
+
+const CLOVER_LINK = 'https://www.clover.com/online-ordering/gong-cha-kelowna';
+const STOREFRONT_LINK = 'https://order.online/business/gong-cha-kelowna-11666410';
+const DOORDASH_LINK = 'https://www.doordash.com/en-CA/store/gong-cha-kelowna-kelowna-25137513/';
 
 const Order = () => {
   return (
@@ -14,16 +17,16 @@ const Order = () => {
               PickUp Order
             </h3>
             <p>
-              To order your favorite drinks ahead for In-store PickUp, please click the button below for the best price.
+              To order and pick up your favorite drinks ahead and enjoy the best affordable prices.
             </p>
-            <OrderPickup/>
+            <OnlineOrder description='Order PickUp' linkAddress={CLOVER_LINK}/>
             <h3>
-              Delivery
+              Delivery Order
             </h3>
             <p>
-              Delivery with DoorDash is available below. Pricing is subjected to DoorDash commission and service fees.
+              Delivery orders are subjected to DoorDash service fees.
             </p>
-            <DoorDashDeliveryOrder/>
+            <OnlineOrder description='Online Delivery' linkAddress={STOREFRONT_LINK}/>
           </article>
           <StaticImage 
               src='../assets/images/menu/theme3.jpg'

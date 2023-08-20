@@ -28,7 +28,7 @@ export default function Home() {
                             to='/order' 
                             className='btn' 
                         >
-                            Brewing Happiness →
+                            Ordering Happiness →
                         </Link>
                     </div>
                   </h3>
