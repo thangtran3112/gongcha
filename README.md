@@ -45,4 +45,4 @@ This website is created based on this youtube tutorials
 [React Icons](https://react-icons.github.io/react-icons/icons?name=bs)
 
 7. **Blob pages are created automatically with gastby-node creatPage function**
-[CreatePage with gatsby node]('https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/')
+[CreatePage with gatsby node](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)

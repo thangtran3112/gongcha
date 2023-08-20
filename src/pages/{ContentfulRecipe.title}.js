@@ -12,6 +12,8 @@ const RecipeTemplate = ({data}) => {
         content, 
         prepTime, 
         servings, 
+        hot,
+        cold,
         image,
         description: {description}
     } = data.contentfulRecipe;
@@ -42,7 +44,9 @@ const RecipeTemplate = ({data}) => {
                                 <article>
                                     <BsSnow2/>
                                     <h5>Cold</h5>
-                                    <p>yes</p>
+                                    <p>
+                                        {cold}
+                                    </p>
                                 </article>
                                 <article>
                                     <BsCupHotFill/>
@@ -83,22 +87,24 @@ const RecipeTemplate = ({data}) => {
 export const query = graphql`
     query getSingleRecipe($title: String) {
         contentfulRecipe(title: {eq: $title}) {
-        cookTime
-        title
-        description {
-            description
-        }
-        content {
-            ingredients
-            instructions
-            tags
-            tools
-        }
-        prepTime
-        servings
-        image {
-            gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
-        }
+            cookTime
+            title
+            description {
+                description
+            }
+            content {
+                ingredients
+                instructions
+                tags
+                tools
+            }
+            prepTime
+            servings
+            hot
+            cold
+            image {
+                gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+            }
         }
     } 
 `
