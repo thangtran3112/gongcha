@@ -12,9 +12,6 @@ const Locations = () => {
               <h2>
                 Gong Cha Kelowna (Capri Centre)
               </h2>
-              <p className='address'>
-                Soft Opening from July 6, 2023.
-              </p>
               <p>
                 <span className='location'>Address:</span> 1101 Harvey Ave, #99, Kelowna, BC V1Y 6E8
               </p>

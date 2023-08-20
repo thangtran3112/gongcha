@@ -28,7 +28,7 @@ const Navbar = () => {
                         activeClassName='active-link'
                         onClick={() => setShow(false)}
                     >
-                        home
+                        Products
                     </Link>
                     <Link 
                         to='/order' 

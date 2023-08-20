@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from "gatsby";
+import AllRecipes from "../components/AllRecipes";
 
 export default function Home() {
   return (
@@ -26,13 +27,14 @@ export default function Home() {
                             to='/order' 
                             className='btn' 
                         >
-                            Ordering Happiness →
+                            Brewing Happiness →
                         </Link>
                     </div>
                   </h3>
                 </div>
               </div>
             </header>
+            <AllRecipes />
           </main>
       </Layout>
   );

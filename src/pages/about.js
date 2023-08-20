@@ -2,21 +2,24 @@ import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
 import ContactLink from '../components/ContactLink';
+import { graphql } from 'gatsby'
+import RecipesList from "../components/RecipesList";
 
-const About = () => {
+const About = ({
+  data: {
+    allContentfulRecipe: { nodes: recipes },
+  },
+}) => {
   return (
     <Layout>
-      <main className='page'>
+      <main className='about-main'>
         <section className='about-page'>
             <article>
               <h2>
                 Brewing Happiness
               </h2>
               <p>
-                Established in 1996 in Taiwan, and after years of expertise development, Gong cha became and is one of the world’s fastest growing tea brands, offering high quality beverages at nearly 2000 locations around the world.
-              </p>
-              <p>
-                We brews four types of classic tea: Black tea, Green tea, Oolong tea, and Earl Grey tea. 
+                Gong Cha brews four types of classic tea: Black tea, Green tea, Oolong tea, and Earl Grey tea. 
                 Using only loose leaf tea leaves, these teas are brewed at just the right temperature for just the right amount of time.
               </p>
               <p>
@@ -36,8 +39,33 @@ const About = () => {
             />
         </section>
       </main>
+      <main className='featured-page'>
+        <section className='featured-recipes'>
+              <h5>Signature Drinks!</h5>
+              <RecipesList recipes={recipes} imageClassName='featured-img'/>
+          </section>
+      </main>
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    allContentfulRecipe(
+      sort: { fields: title, order: ASC }
+      filter: { featured: { eq: true } }
+    ) {
+      nodes {
+        id
+        title
+        vegan
+        milk
+        image {
+          gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+        }
+      }
+    }
+  }
+`
 
 export default About;
