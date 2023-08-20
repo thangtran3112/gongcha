@@ -41,7 +41,7 @@ const About = ({
       </main>
       <main className='featured-page'>
         <section className='featured-recipes'>
-              <h5>Look at this Awesomesouce!</h5>
+              <h5>Signature Drinks!</h5>
               <RecipesList recipes={recipes} imageClassName='featured-img'/>
           </section>
       </main>

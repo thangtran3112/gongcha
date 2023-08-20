@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from "gatsby";
 import AllRecipes from "../components/AllRecipes";
-import OrderPickup from '../components/OrderPickup'
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
                             to='/order' 
                             className='btn' 
                         >
-                            Ordering Happiness →
+                            Brewing Happiness →
                         </Link>
                     </div>
                   </h3>
