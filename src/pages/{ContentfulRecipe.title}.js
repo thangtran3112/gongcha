@@ -5,6 +5,7 @@ import { BsCart4, BsCupHotFill, BsSnow2} from 'react-icons/bs';
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 import BackLink from '../components/BackLink';
+import slugify from "slugify"
 
 const RecipeTemplate = ({data}) => {
     const {
@@ -62,12 +63,17 @@ const RecipeTemplate = ({data}) => {
                                     </h5>
                                 </article>
                             </div>
-                            {/*tag*/}
-                            <p className='recipe-tags'>
-                                Tags : {tags.map((tag, index)=>{
-                                    return <Link to={`/${tag}`} key={index}>
+                            {/* tags */}
+                            <p className="recipe-tags">
+                                Tags :
+                                {tags.map((tag, index) => {
+                                const slug = slugify(tag, { lower: true })
+
+                                return (
+                                    <Link to={`/tags/${slug}`} key={index}>
                                         {tag}
                                     </Link>
+                                )
                                 })}
                             </p>
                         </article>
