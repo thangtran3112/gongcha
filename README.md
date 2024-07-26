@@ -1,7 +1,4 @@
-## 🚀 Quick start
 
-This website is created based on this youtube tutorials
-[Gastby Tutorial](https://www.youtube.com/watch?v=RaTpreA0v7Q&t=25241s)
 
 1.  **Start developing.**
 
